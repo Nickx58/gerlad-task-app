@@ -53,7 +53,7 @@ const SearchContainer = styled.div`
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState(List);
   const [listItem, setListItem] = useState("");
 
   const handleList = (item) => {
